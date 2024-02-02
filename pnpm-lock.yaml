@@ -10,7 +10,7 @@ dependencies:
     version: 6.26.0
   lottie-web:
     specifier: ^5.1.3
-    version: 5.1.17
+    version: 5.12.2
   prop-types:
     specifier: ^15.6.1
     version: 15.6.1
@@ -4983,8 +4983,8 @@ packages:
     dependencies:
       js-tokens: 3.0.2
 
-  /lottie-web@5.1.17:
-    resolution: {integrity: sha512-JcB6ABg9NF2oH6mQWywAkw5pvSpmX9L0S/seJjXfk5H4EWqP8TE+7rpKMGeodqXN6deq7826qekPwbSW1fih/g==}
+  /lottie-web@5.12.2:
+    resolution: {integrity: sha512-uvhvYPC8kGPjXT3MyKMrL3JitEAmDMp30lVkuq/590Mw9ok6pWcFCwXJveo0t5uqYw1UREQHofD+jVpdjBv8wg==}
     dev: false
 
   /loud-rejection@1.6.0:
