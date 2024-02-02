@@ -1,10 +1,18 @@
 # Change Log
 
+
+## 1.6.0
+
+### Minor Changes
+
+- 03ee638: type declaration file
+
 ## 1.5.3
 
 ### Patch Changes
 
 - repo name update
+
 
 ## 1.5.2
 
