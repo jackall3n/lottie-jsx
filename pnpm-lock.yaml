@@ -21,7 +21,7 @@ devDependencies:
     version: 2.27.1
   '@kadira/storybook':
     specifier: ^2.35.3
-    version: 2.35.3(react-dom@15.6.2)(react@15.6.2)
+    version: 2.35.3(react-dom@15.6.2)(react@15.7.0)
   babel-cli:
     specifier: ^6.26.0
     version: 6.26.0
@@ -48,7 +48,7 @@ devDependencies:
     version: 3.5.0
   enzyme:
     specifier: ^2.2.0
-    version: 2.9.1(react@15.6.2)
+    version: 2.9.1(react@15.7.0)
   eslint:
     specifier: ^3.6.0
     version: 3.19.0
@@ -75,13 +75,13 @@ devDependencies:
     version: 5.2.0
   react:
     specifier: ^15.6.2
-    version: 15.6.2
+    version: 15.7.0
   react-addons-test-utils:
     specifier: ^15.6.2
     version: 15.6.2(react-dom@15.6.2)
   react-dom:
     specifier: ^15.6.2
-    version: 15.6.2(react@15.6.2)
+    version: 15.6.2(react@15.7.0)
   sinon:
     specifier: ^1.17.6
     version: 1.17.7
@@ -303,17 +303,17 @@ packages:
       prettier: 2.8.8
     dev: true
 
-  /@kadira/react-split-pane@1.4.7(react-dom@15.6.2)(react@15.6.2):
+  /@kadira/react-split-pane@1.4.7(react-dom@15.6.2)(react@15.7.0):
     resolution: {integrity: sha512-kDNxVdpGnC8bHpWVXznckn/Og2zU4MkrHcwxfuRuov6xcCgt5A59eJ8Q7qjUk5GUedrwd8n8zvBMVZ1Ky7i5PA==}
     peerDependencies:
       react: ^0.14.8 || ^15.0.0
       react-dom: ^0.14.8 || ^15.0.0
     dependencies:
-      react: 15.6.2
-      react-dom: 15.6.2(react@15.6.2)
+      react: 15.7.0
+      react-dom: 15.6.2(react@15.7.0)
     dev: true
 
-  /@kadira/storybook-addon-actions@1.1.3(@kadira/storybook-addons@1.6.1)(react-dom@15.6.2)(react@15.6.2):
+  /@kadira/storybook-addon-actions@1.1.3(@kadira/storybook-addons@1.6.1)(react-dom@15.6.2)(react@15.7.0):
     resolution: {integrity: sha512-IipwbyDs/bvud/7go8a8KR5MQonigaDu3A10PHNViD8UJDJDfYcrvowJmkrCNwAAlL6g3LKf04jbfRxDY/WoHg==}
     peerDependencies:
       '@kadira/storybook-addons': ^1.3.0
@@ -323,12 +323,12 @@ packages:
       '@kadira/storybook-addons': 1.6.1
       deep-equal: 1.0.1
       json-stringify-safe: 5.0.1
-      react: 15.6.2
-      react-dom: 15.6.2(react@15.6.2)
-      react-inspector: 1.1.2(react@15.6.2)
+      react: 15.7.0
+      react-dom: 15.6.2(react@15.7.0)
+      react-inspector: 1.1.2(react@15.7.0)
     dev: true
 
-  /@kadira/storybook-addon-links@1.0.1(@kadira/storybook-addons@1.6.1)(react-dom@15.6.2)(react@15.6.2):
+  /@kadira/storybook-addon-links@1.0.1(@kadira/storybook-addons@1.6.1)(react-dom@15.6.2)(react@15.7.0):
     resolution: {integrity: sha512-AdbCAMQmTdMAWSQcAr7Qp8gqLSh9U4+iH3zfmpOOWzH9uhFWTjF090kGBqaPssZGtwgSGH+4nbhPlp72UUqJwA==}
     peerDependencies:
       '@kadira/storybook-addons': ^1.3.0
@@ -336,8 +336,8 @@ packages:
       react-dom: ^0.14.7 || ^15.0.0
     dependencies:
       '@kadira/storybook-addons': 1.6.1
-      react: 15.6.2
-      react-dom: 15.6.2(react@15.6.2)
+      react: 15.7.0
+      react-dom: 15.6.2(react@15.7.0)
     dev: true
 
   /@kadira/storybook-addons@1.6.1:
@@ -355,13 +355,13 @@ packages:
     resolution: {integrity: sha512-2Co0PSy/cX9qwvLLo48JqhngYM5Wjy2no4Z7OUn8v/HPCqsl606Gq18B7we3VY6vyByflE46TlBFnzounjXXrw==}
     dev: true
 
-  /@kadira/storybook-ui@3.11.0(react-dom@15.6.2)(react@15.6.2):
+  /@kadira/storybook-ui@3.11.0(react-dom@15.6.2)(react@15.7.0):
     resolution: {integrity: sha512-s6mnqv9ZbumyDeScV5q7PUYujIWKRQA+gl46gdfY0iGEnsPiH2j2AFuaIgmTrdaEQbvBhXR4koX6hkRIA8IQXA==}
     peerDependencies:
       react: ^0.14.7 || ^15.0.0
       react-dom: ^0.14.7 || ^15.0.0
     dependencies:
-      '@kadira/react-split-pane': 1.4.7(react-dom@15.6.2)(react@15.6.2)
+      '@kadira/react-split-pane': 1.4.7(react-dom@15.6.2)(react@15.7.0)
       babel-runtime: 6.26.0
       deep-equal: 1.0.1
       events: 1.1.1
@@ -370,31 +370,31 @@ packages:
       keycode: 2.1.9
       lodash.pick: 4.4.0
       lodash.sortby: 4.7.0
-      mantra-core: 1.7.0(react@15.6.2)
+      mantra-core: 1.7.0(react@15.7.0)
       podda: 1.2.2
       qs: 6.4.0
-      react: 15.6.2
-      react-dom: 15.6.2(react@15.6.2)
-      react-fuzzy: 0.3.3(react@15.6.2)
-      react-inspector: 1.1.2(react@15.6.2)
-      react-komposer: 2.0.0(react@15.6.2)
-      react-modal: 1.9.7(react-dom@15.6.2)(react@15.6.2)
+      react: 15.7.0
+      react-dom: 15.6.2(react@15.7.0)
+      react-fuzzy: 0.3.3(react@15.7.0)
+      react-inspector: 1.1.2(react@15.7.0)
+      react-komposer: 2.0.0(react@15.7.0)
+      react-modal: 1.9.7(react-dom@15.6.2)(react@15.7.0)
       redux: 3.7.1
     dev: true
 
-  /@kadira/storybook@2.35.3(react-dom@15.6.2)(react@15.6.2):
+  /@kadira/storybook@2.35.3(react-dom@15.6.2)(react@15.7.0):
     resolution: {integrity: sha512-63Kp3X/ve1+yHtlE/eMjorzV84dJOcalHiKaUCnY+QHrsmcpRKdKxZwZlAq2f4mgC7pDgnQlc+AEG2YmIgmYjw==}
     hasBin: true
     peerDependencies:
       react: ^0.14.7 || ^15.0.0
       react-dom: ^0.14.7 || ^15.0.0
     dependencies:
-      '@kadira/react-split-pane': 1.4.7(react-dom@15.6.2)(react@15.6.2)
-      '@kadira/storybook-addon-actions': 1.1.3(@kadira/storybook-addons@1.6.1)(react-dom@15.6.2)(react@15.6.2)
-      '@kadira/storybook-addon-links': 1.0.1(@kadira/storybook-addons@1.6.1)(react-dom@15.6.2)(react@15.6.2)
+      '@kadira/react-split-pane': 1.4.7(react-dom@15.6.2)(react@15.7.0)
+      '@kadira/storybook-addon-actions': 1.1.3(@kadira/storybook-addons@1.6.1)(react-dom@15.6.2)(react@15.7.0)
+      '@kadira/storybook-addon-links': 1.0.1(@kadira/storybook-addons@1.6.1)(react-dom@15.6.2)(react@15.7.0)
       '@kadira/storybook-addons': 1.6.1
       '@kadira/storybook-channel-postmsg': 2.0.1
-      '@kadira/storybook-ui': 3.11.0(react-dom@15.6.2)(react@15.6.2)
+      '@kadira/storybook-ui': 3.11.0(react-dom@15.6.2)(react@15.7.0)
       airbnb-js-shims: 1.1.1
       autoprefixer: 6.7.7
       babel-core: 6.26.3
@@ -417,9 +417,9 @@ packages:
       lodash.pick: 4.4.0
       postcss-loader: 1.1.0
       qs: 6.4.0
-      react: 15.6.2
-      react-dom: 15.6.2(react@15.6.2)
-      react-modal: 1.9.7(react-dom@15.6.2)(react@15.6.2)
+      react: 15.7.0
+      react-dom: 15.6.2(react@15.7.0)
+      react-modal: 1.9.7(react-dom@15.6.2)(react@15.7.0)
       redux: 3.7.1
       request: 2.81.0
       serve-favicon: 2.4.3
@@ -2887,7 +2887,7 @@ packages:
     resolution: {integrity: sha512-bWStsIg5+vWzgtKoA/pkAIJzRAeUatnImqcK4CyHd2KoNq3fCg/tHDoE/7e81yRq9Xg8XUSvAcsSaMCp4a3HuQ==}
     dev: true
 
-  /enzyme@2.9.1(react@15.6.2):
+  /enzyme@2.9.1(react@15.7.0):
     resolution: {integrity: sha512-64Gr+ozwW9LNQ9YetJ6qHZpLQ9RCYZyVqnuE7XAEfgRsTNTB72v//E9Lp6iNeclXRU0FHywzFRb9kLXMfRyotw==}
     peerDependencies:
       react: 0.13.x || 0.14.x || ^15.0.0-0 || 15.x
@@ -2901,7 +2901,7 @@ packages:
       object.entries: 1.0.4
       object.values: 1.0.4
       prop-types: 15.6.1
-      react: 15.6.2
+      react: 15.7.0
       uuid: 3.1.0
     dev: true
 
@@ -5013,12 +5013,12 @@ packages:
     resolution: {integrity: sha512-igFoAz9Ih4sE9MnJLA/3aS+GQeU5OUXKwV0JMIwyQtGqyNPdwJhcVdIDjFIFDeyaw7jdQvK1FxJv5GoNYkl6zA==}
     dev: true
 
-  /mantra-core@1.7.0(react@15.6.2):
+  /mantra-core@1.7.0(react@15.7.0):
     resolution: {integrity: sha512-2JQfEkOJ+6ydMwviPtpYIN1/5hr/YQXvGWGcFQWQwzbsQidvbP3rgGMzwFbKWrIoUG9BvEyHT6RceyNKawantw==}
     dependencies:
       babel-runtime: 6.26.0
-      react-komposer: 1.13.1(react@15.6.2)
-      react-simple-di: 1.2.0(react@15.6.2)
+      react-komposer: 1.13.1(react@15.7.0)
+      react-simple-di: 1.2.0(react@15.7.0)
     transitivePeerDependencies:
       - react
     dev: true
@@ -6244,7 +6244,7 @@ packages:
     peerDependencies:
       react-dom: ^15.4.2
     dependencies:
-      react-dom: 15.6.2(react@15.6.2)
+      react-dom: 15.6.2(react@15.7.0)
     dev: true
 
   /react-docgen@2.16.0:
@@ -6260,15 +6260,15 @@ packages:
       recast: 0.11.23
     dev: true
 
-  /react-dom-factories@1.0.0(react@15.6.2):
+  /react-dom-factories@1.0.0(react@15.7.0):
     resolution: {integrity: sha512-M6RTHnMxyfbVp7eq7K2pcCnvZRzR/ABx/1guV9cgvVV2VzScvCu99sWM3Cp+I4MLXVLjdsmEvyXngto0D90MqQ==}
     peerDependencies:
       react: ^15.5.4
     dependencies:
-      react: 15.6.2
+      react: 15.7.0
     dev: true
 
-  /react-dom@15.6.2(react@15.6.2):
+  /react-dom@15.6.2(react@15.7.0):
     resolution: {integrity: sha512-qxrSETbovswZ0xXs1o5+1o9NfNYbLnQWUqhef36tDWb+tGrbsHjEel5DZuncWMbO0rWd5e4AvCoJBOWm3x6p3A==}
     peerDependencies:
       react: ^15.6.2
@@ -6277,10 +6277,10 @@ packages:
       loose-envify: 1.3.1
       object-assign: 4.1.1
       prop-types: 15.6.1
-      react: 15.6.2
+      react: 15.7.0
     dev: true
 
-  /react-fuzzy@0.3.3(react@15.6.2):
+  /react-fuzzy@0.3.3(react@15.7.0):
     resolution: {integrity: sha512-kkUelR9Nee/RgEt1xdJxe99wuYS/ZpOjDJVESY8rzI3R3zTbuVyhciUUGE/ZUMrMrNm0O/fIpuFnh2FlYEDMCA==}
     peerDependencies:
       react: ^0.14.7 || ^15.0.0
@@ -6288,20 +6288,20 @@ packages:
       babel-runtime: 6.26.0
       classnames: 2.2.5
       fuse.js: 2.7.4
-      react: 15.6.2
+      react: 15.7.0
     dev: true
 
-  /react-inspector@1.1.2(react@15.6.2):
+  /react-inspector@1.1.2(react@15.7.0):
     resolution: {integrity: sha512-n/hXTMDQ2o6Qb2W+qT5N0137d6PF/xj2xuof9vjOZ1Y/DOqqsT9QzK/AjfhLxEqfe3kwiJx5wcXOxBYv59uPlQ==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0-0
     dependencies:
       babel-runtime: 6.26.0
       is-dom: 1.0.9
-      react: 15.6.2
+      react: 15.7.0
     dev: true
 
-  /react-komposer@1.13.1(react@15.6.2):
+  /react-komposer@1.13.1(react@15.7.0):
     resolution: {integrity: sha512-gKzFb4ynsy3kl2XPV7rztMaULrD8bOpltwd9LUj57BOLU1AuEAg3+gH6Mqy+SNHBUbNrAgQUnsJcsKU1WDzHLw==}
     peerDependencies:
       react: ^0.14.3 || ^15.0.0
@@ -6310,11 +6310,11 @@ packages:
       hoist-non-react-statics: 1.2.0
       invariant: 2.2.2
       mobx: 2.7.0
-      react: 15.6.2
+      react: 15.7.0
       shallowequal: 0.2.2
     dev: true
 
-  /react-komposer@2.0.0(react@15.6.2):
+  /react-komposer@2.0.0(react@15.7.0):
     resolution: {integrity: sha512-N8GX2cwhjTKXg3faOx8+i/Z8RZliXx+9VkHujrZFbTjc2MKKdsUxAaGU4q7JqGGMR8/U6mg0szVWwJ3wW8jG9g==}
     engines: {npm: ^3.0.0}
     peerDependencies:
@@ -6323,12 +6323,12 @@ packages:
       babel-runtime: 6.26.0
       hoist-non-react-statics: 1.2.0
       lodash.pick: 4.4.0
-      react: 15.6.2
-      react-stubber: 1.0.0(react@15.6.2)
+      react: 15.7.0
+      react-stubber: 1.0.0(react@15.7.0)
       shallowequal: 0.2.2
     dev: true
 
-  /react-modal@1.9.7(react-dom@15.6.2)(react@15.6.2):
+  /react-modal@1.9.7(react-dom@15.6.2)(react@15.7.0):
     resolution: {integrity: sha512-oZNqI0ZnPD7NnfObrCMz2hxHTAw5oEuhZJ+gnyFNIQB2rR8h1YbLQTfhms1mtSJigb0J23OOWElHjXYYaKO+wg==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0
@@ -6339,33 +6339,33 @@ packages:
       exenv: 1.2.0
       lodash.assign: 4.2.0
       prop-types: 15.6.1
-      react: 15.6.2
-      react-dom: 15.6.2(react@15.6.2)
-      react-dom-factories: 1.0.0(react@15.6.2)
+      react: 15.7.0
+      react-dom: 15.6.2(react@15.7.0)
+      react-dom-factories: 1.0.0(react@15.7.0)
     dev: true
 
-  /react-simple-di@1.2.0(react@15.6.2):
+  /react-simple-di@1.2.0(react@15.7.0):
     resolution: {integrity: sha512-O9lOQRNKGTN7Y7taBZXAx97bkqY//8sqFb5uAVnjHxoHS8l1QZ7kFm//Ze++6VqqaKJu6p5no9V6SbHl9BjTfw==}
     peerDependencies:
       react: ^0.14.0 || ^15.0.0
     dependencies:
       babel-runtime: 6.26.0
       hoist-non-react-statics: 1.2.0
-      react: 15.6.2
+      react: 15.7.0
     dev: true
 
-  /react-stubber@1.0.0(react@15.6.2):
+  /react-stubber@1.0.0(react@15.7.0):
     resolution: {integrity: sha512-fJAnvUBmSoN9LjU0y8vY+Ia+R/HczY0SI5Ao88mpn+QvRAG9kNGCfzBEW5qa5g0KDXnkwGsDgFQexnirqEMzaw==}
     engines: {npm: ^3.0.0}
     peerDependencies:
       react: ^0.14.7 || ^15.0.0
     dependencies:
       babel-runtime: 6.26.0
-      react: 15.6.2
+      react: 15.7.0
     dev: true
 
-  /react@15.6.2:
-    resolution: {integrity: sha512-DHyivomgg2kMUWsT3mfMtIKNxJyAtlcFtCd+vWvk4u/mAsnXqrhkDVAzZR7aSS/kk2hvAS7rwlia6zyAcJjcsg==}
+  /react@15.7.0:
+    resolution: {integrity: sha512-5/MMRYmpmM0sMTHGLossnJCrmXQIiJilD6y3YN3TzAwGFj6zdnMtFv6xmi65PHKRV+pehIHpT7oy67Sr6s9AHA==}
     engines: {node: '>=0.10.0'}
     dependencies:
       create-react-class: 15.6.0
