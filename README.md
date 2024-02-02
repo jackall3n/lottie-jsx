@@ -7,7 +7,7 @@
 A live fork from the (dead?) package https://www.npmjs.com/package/react-lottie created by [chenqingspring](https://github.com/chenqingspring/react-lottie)
 
 ## Demo
-https://chenqingspring.github.io/react-lottie
+https://jackall3n.github.io/lottie-jsx
 
 ## Wapper of bodymovin.js
 
